@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE_NAME = 'spring-boot-app'
-        DOCKER_REGISTRY = 'your-docker-registry-url'
+        DOCKER_REGISTRY = 'localhost:5000'
     }
 
     stages {
